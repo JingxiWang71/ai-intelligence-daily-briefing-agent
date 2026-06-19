@@ -1,6 +1,17 @@
+# Python
 venv/
 __pycache__/
-.env
 *.pyc
+
+# Environment
+.env
+
+# Logs
 logs/
-data/
+
+# Backend generated data
+ai_news_agent_backend/data/*.json
+
+# Node
+node_modules/
+dist/
